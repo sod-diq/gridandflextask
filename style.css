@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+/* section1 */
+
+.header{
+    border: 1px solid darkblue;
+    padding: 20px;
+}
+.header-one{
+    border: 1px solid crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botique h1{
+    color: gray;
+    border: 1px firebrick solid;
+    font-style: italic;
+}
+.faq{
+    color: lightgrey;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    color: lightgrey;
+    
+}
+.signup{
+    padding-right: 10px;
+    border: 1px solid blueviolet;
+}
+.mycart{
+    border:  1px gold solid;
+    padding-left: 10px;
+}
+.header-two{
+    display: flex;
+    border: 1px solid brown;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: lightgrey;
+}
+
+
+/* end of section1 */
+
+/* section2 */
+
+.life{
+    border: 1px solid hotpink;
+    height: 50vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.life-chird{
+    align-self: flex-end;
+    border: 1px solid greenyellow;
+}
+/* section2 end */
+
+/* section3 */
+
+.section-three{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    border: 1px solid fuchsia;
+    color: gray;
+    justify-content: center;
+}
+.text-three{
+    border: 1px solid maroon;
+    width: 50%;
+    
+}
+/* section3 end */
+
+/* section 4 */
+
+.section-four{
+    border: 1px solid aqua;
+    display: flex;
+    /* min-height: 100vh; */
+}
+.sec4-left{
+    flex-grow: 1;
+    border: 1px solid green;
+}
+.sec4-right{
+    display: flex;
+    flex-grow: 3;
+    border: 1px solid darkcyan;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box-icon{
+    width: 18vw;
+    height: 30vh;
+    border: 1px solid seagreen;
+    background-color: lightgrey;
+}
+
+
+/* end of section 4 */
